@@ -1,0 +1,68 @@
+<svg width="1000" height="360" viewBox="0 0 1000 360" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="panel" x1="0" y1="0" x2="1000" y2="360" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F8FAFC"/>
+      <stop offset="1" stop-color="#ECFDF5"/>
+    </linearGradient>
+    <linearGradient id="cube" x1="96" y1="84" x2="304" y2="220" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#38BDF8"/>
+      <stop offset="0.5" stop-color="#22C55E"/>
+      <stop offset="1" stop-color="#F59E0B"/>
+    </linearGradient>
+    <filter id="shadow" x="-15%" y="-20%" width="130%" height="150%">
+      <feDropShadow dx="0" dy="14" stdDeviation="12" flood-color="#0F172A" flood-opacity="0.14"/>
+    </filter>
+  </defs>
+
+  <rect width="1000" height="360" rx="22" fill="url(#panel)"/>
+  <path d="M70 285C204 198 289 299 418 216C532 143 612 217 730 145C817 92 888 100 958 123" stroke="#CBD5E1" stroke-width="2" stroke-dasharray="8 12"/>
+
+  <g transform="translate(68 72)" filter="url(#shadow)">
+    <rect width="220" height="210" rx="18" fill="white"/>
+    <text x="28" y="40" fill="#0F172A" font-family="Segoe UI, Arial, sans-serif" font-size="19" font-weight="700">Hyperspectral Cube</text>
+    <text x="28" y="66" fill="#64748B" font-family="Segoe UI, Arial, sans-serif" font-size="13">spectral-spatial signals</text>
+    <path d="M52 122L112 88L172 116L111 153L52 122Z" fill="url(#cube)"/>
+    <path d="M52 122L111 153V190L52 158V122Z" fill="#0284C7" opacity="0.78"/>
+    <path d="M111 153L172 116V153L111 190V153Z" fill="#16A34A" opacity="0.74"/>
+    <path d="M52 122L112 88L172 116L111 153L52 122Z" stroke="#0F172A" stroke-opacity="0.2"/>
+  </g>
+
+  <g transform="translate(318 72)" filter="url(#shadow)">
+    <rect width="220" height="210" rx="18" fill="white"/>
+    <text x="28" y="40" fill="#0F172A" font-family="Segoe UI, Arial, sans-serif" font-size="19" font-weight="700">Representation</text>
+    <text x="28" y="66" fill="#64748B" font-family="Segoe UI, Arial, sans-serif" font-size="13">interpretable learning</text>
+    <g transform="translate(34 98)">
+      <rect width="152" height="18" rx="9" fill="#E0F2FE"/>
+      <rect y="34" width="122" height="18" rx="9" fill="#DCFCE7"/>
+      <rect y="68" width="172" height="18" rx="9" fill="#FEF3C7"/>
+      <circle cx="156" cy="9" r="9" fill="#38BDF8"/>
+      <circle cx="126" cy="43" r="9" fill="#22C55E"/>
+      <circle cx="176" cy="77" r="9" fill="#F59E0B"/>
+    </g>
+  </g>
+
+  <g transform="translate(568 72)" filter="url(#shadow)">
+    <rect width="220" height="210" rx="18" fill="white"/>
+    <text x="28" y="40" fill="#0F172A" font-family="Segoe UI, Arial, sans-serif" font-size="19" font-weight="700">Detection Model</text>
+    <text x="28" y="66" fill="#64748B" font-family="Segoe UI, Arial, sans-serif" font-size="13">target, anomaly, fusion</text>
+    <g transform="translate(42 95)">
+      <circle cx="35" cy="35" r="28" fill="#DBEAFE" stroke="#60A5FA" stroke-width="3"/>
+      <circle cx="102" cy="35" r="28" fill="#DCFCE7" stroke="#4ADE80" stroke-width="3"/>
+      <circle cx="69" cy="92" r="28" fill="#FEF3C7" stroke="#FBBF24" stroke-width="3"/>
+      <path d="M61 35H76M53 58L60 70M87 58L78 70" stroke="#334155" stroke-width="3" stroke-linecap="round"/>
+    </g>
+  </g>
+
+  <g transform="translate(818 72)" filter="url(#shadow)">
+    <rect width="132" height="210" rx="18" fill="#0F172A"/>
+    <text x="24" y="40" fill="#F8FAFC" font-family="Segoe UI, Arial, sans-serif" font-size="19" font-weight="700">Output</text>
+    <text x="24" y="66" fill="#BAE6FD" font-family="Segoe UI, Arial, sans-serif" font-size="13">decisions</text>
+    <rect x="24" y="98" width="84" height="24" rx="12" fill="#22C55E"/>
+    <rect x="24" y="136" width="62" height="24" rx="12" fill="#38BDF8"/>
+    <rect x="24" y="174" width="74" height="24" rx="12" fill="#F59E0B"/>
+  </g>
+
+  <path d="M294 177H316" stroke="#0F172A" stroke-opacity="0.34" stroke-width="3" stroke-linecap="round"/>
+  <path d="M544 177H566" stroke="#0F172A" stroke-opacity="0.34" stroke-width="3" stroke-linecap="round"/>
+  <path d="M794 177H816" stroke="#0F172A" stroke-opacity="0.34" stroke-width="3" stroke-linecap="round"/>
+</svg>
