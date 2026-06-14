@@ -1,0 +1,30 @@
+<svg width="1100" height="280" viewBox="0 0 1100 280" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1100" height="280" rx="18" fill="#F8FAFC"/>
+  <rect x="42" y="36" width="1016" height="190" rx="12" fill="white" stroke="#E2E8F0"/>
+  <g stroke="#E2E8F0" stroke-width="1">
+    <path d="M84 66V210"/>
+    <path d="M241 66V210"/>
+    <path d="M398 66V210"/>
+    <path d="M555 66V210"/>
+    <path d="M712 66V210"/>
+    <path d="M869 66V210"/>
+    <path d="M1026 66V210"/>
+    <path d="M84 210H1026"/>
+    <path d="M84 174H1026"/>
+    <path d="M84 138H1026"/>
+    <path d="M84 102H1026"/>
+    <path d="M84 66H1026"/>
+  </g>
+  <path d="M84 172C132 158 156 91 206 108C250 123 268 189 319 176C375 162 383 82 442 94C498 105 508 171 562 158C624 143 627 78 692 86C750 93 755 159 813 150C875 140 890 78 950 94C994 106 1012 151 1026 166" stroke="#0EA5E9" stroke-width="4" stroke-linecap="round"/>
+  <path d="M84 194C131 180 170 151 218 159C265 167 295 203 346 190C400 176 416 132 472 139C528 146 553 187 610 174C671 160 693 111 752 121C810 130 831 180 888 169C946 158 982 133 1026 142" stroke="#16A34A" stroke-width="4" stroke-linecap="round"/>
+  <path d="M84 122C133 136 162 169 214 161C268 153 286 106 342 116C398 126 414 182 470 173C532 163 542 103 603 111C659 118 678 174 737 165C798 156 814 91 876 104C932 116 977 158 1026 132" stroke="#F59E0B" stroke-width="4" stroke-linecap="round"/>
+  <g font-family="Segoe UI, Arial, sans-serif">
+    <text x="48" y="252" fill="#334155" font-size="15">Spectral signatures are compact, structured, and often subtle. My work studies how to detect meaningful targets from this signal space.</text>
+    <text x="84" y="232" fill="#64748B" font-size="12">visible</text>
+    <text x="488" y="232" fill="#64748B" font-size="12">near infrared</text>
+    <text x="910" y="232" fill="#64748B" font-size="12">short-wave infrared</text>
+  </g>
+  <circle cx="692" cy="86" r="6" fill="#0EA5E9"/>
+  <circle cx="752" cy="121" r="6" fill="#16A34A"/>
+  <circle cx="876" cy="104" r="6" fill="#F59E0B"/>
+</svg>
